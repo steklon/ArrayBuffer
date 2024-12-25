@@ -1,6 +1,6 @@
 export default class ArrayBufferConverter {
   constructor() {
-    this.buffer;
+    this.buffer = null;
   }
 
   load(buffer) {
